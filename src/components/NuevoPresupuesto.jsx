@@ -24,7 +24,7 @@ const NuevoPresupuesto = ({presupuesto, setPresupuesto}) => {
                     type="text"
                     placeholder="Añade tu Presupuesto"
                     value={presupuesto}
-                    onChange={e => setPresupuesto(e.target.valuea)}
+                    onChange={e => setPresupuesto(e.target.value)}
                 />
             </div>
             <input type="submit" value="Añadir" />
